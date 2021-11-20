@@ -6,6 +6,7 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(162, 234, 252);
 }
 
 header {
@@ -48,12 +49,35 @@ header nav ul li a {
     display: inline-block;
 }
 
-.hero {
-    background-image: url(../images/Hero.jpg);
+.hero-img {
+    background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero-text {
+    text-align: center;
+    position: relative;
+    float: inline-end;
+}
+
+.about-me {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.about-me img {
     float: right;
+}
+
+.projects a {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgba(138, 237, 255, 0.5);
+    position: absolute;
 }
